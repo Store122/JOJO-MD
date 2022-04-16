@@ -24,8 +24,8 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
 	
   _*${ucapanWaktu} ${pushname !== undefined ? pushname : 'Kak'}*_
 
-    Library : *Baileys-MD*.
-    Prefix : ( ${prefix} )
+    Library🌹 : *Baileys-MD*.
+    Prefix🪀 : ( ${prefix} )
     Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
     Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
 
@@ -33,11 +33,11 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
 	Limit Harian : ${isOwner ? '-' : isPremium ? 'Unlimited' : getLimit(sender, limitCount, limit)}
 	Limit Game : ${isOwner ? '-' : cekGLimit(sender, gcount, glimit)}
 	Balance : $${toCommas(getBalance(sender, balance))}
-  Note : Anggap _<>_ *Tidak Ada*
+  Note : Anggap _<>_ *Tidak Ada*🍷
   
   _Ada Bug? Ketik ${prefix}report Bug mu_
   ${readmore}
-  *( 📍 )  Main Menu*
+    _Main Menu_
   ≻ ${prefix}menu
   ≻ ${prefix}owner
   ≻ ${prefix}donasi
@@ -45,15 +45,11 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}runtime
   ≻ ${prefix}cekprem
   ≻ ${prefix}listprem
-  ≻ ${prefix}jo <Text>
-  ≻ ${prefix}simi <Text>
 
-  *( ✏️ )  Converter/Tools*
+     _Converter/Tools_
   ≻ ${prefix}stiker <ReplyGambar/Caption>
-  ≻ ${prefix}toimg <ReplyStiker>
-  ≻ ${prefix}tovid <ReplyStiker>
-
-  *( ⌛ )  Downloader*
+  
+     _Downloader_
   ≻ ${prefix}play <Querry>
   ≻ ${prefix}tiktok <LinkTt>
   ≻ ${prefix}tiktokaudio <LinkTt>
@@ -64,7 +60,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}instagram <LinkIg>
   ≻ ${prefix}facebook <LinkFb>
   
-  *( ♻️ )  Random Menu*
+     _Random Menu_
   ≻ ${prefix}quote
   ≻ ${prefix}cecan
   ≻ ${prefix}cogan
@@ -73,11 +69,8 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}waifu
   ≻ ${prefix}husbu
   ≻ ${prefix}yaoi
-  
-  *( 📛 ) Nsfw User Free*
-  ≻ ${prefix}hentai
-  
-  *( ⚠️ )  Premium User*
+
+     _Premium User_
   ≻ ${prefix}ass
   ≻ ${prefix}bdsm
   ≻ ${prefix}ahegao
@@ -90,7 +83,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}gangbang
   ≻ ${prefix}xnxx <Link>
   
-  *( 🎨 )  Menu Maker*
+     _Menu Maker_
   ≻ ${prefix}glitch <Text> <Text>
   ≻ ${prefix}flaming <Text>
   ≻ ${prefix}shadow <Text>
@@ -129,9 +122,8 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}maker9 <Text>
   ≻ ${prefix}maker10 <Text>
   
-  *( 🪀 )  Menu Lain Nya*
+     _Menu Lain Nya_
   ≻ ${prefix}shortlink <Link>
-  ≻ ${prefix}ssweb <Link>
   ≻ ${prefix}ssdesktop <Link>
   ≻ ${prefix}sshpfull <Link>
   ≻ ${prefix}kbbi <Kata>
@@ -149,25 +141,25 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}readmore <Text>|<Text>
   ≻ ${prefix}hitungmundur 12 10 2022
 
-  *( ☪️ )  Islamic Menu*
+     _Islamic Menu_
   ≻ ${prefix}quran <nomer>
   ≻ ${prefix}quranaudio <surah> <ayat>
   ≻ ${prefix}listquran <nomer>
   ≻ ${prefix}kisahnabi <Nama Nabi>
 
-  *( ✍️ )  Menu Tulis*
+     _Menu Tulis_
   ≻ ${prefix}nuliskanan <Text>
   ≻ ${prefix}nuliskiri <Text>
   ≻ ${prefix}foliokanan <Text>
   ≻ ${prefix}foliokiri <Text>
   
-  *( 🔎 )  Search Menu*
+      _Search Menu_
   ≻ ${prefix}lirik <Judul>
   ≻ ${prefix}grupwa <Pencarian>
   ≻ ${prefix}ytsearch <Pencarian>
   ≻ ${prefix}pinterest <Querry>
   
-  *( 🎮 )  Game & Fun Menu*
+     _Game & Fun Menu_
   ≻ ${prefix}tictactoe @tag
   ≻ ${prefix}delttc
   ≻ ${prefix}suit
@@ -184,9 +176,8 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}gimana <Query>
   ≻ ${prefix}bisakah <Query>
   ≻ ${prefix}cekme
-  ≻ ${prefix}react <Emoji>
   
-  *( 🏦 )  Payment & Bank*
+      _Payment & Bank_
   ≻ ${prefix}buylimit <Jumlah>
   ≻ ${prefix}buyglimit <Jumlah>
   ≻ ${prefix}transfer @tag <jumlah>
@@ -194,7 +185,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}balance
   ≻ ${prefix}topbalance
 
-  *( 👥 )  Group Menu*
+     _Group Menu_
   ≻ ${prefix}linkgrup
   ≻ ${prefix}setppgrup
   ≻ ${prefix}setnamegc
@@ -205,7 +196,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
   ≻ ${prefix}kick <@tag>
   ≻ ${prefix}add <@tag>
   
-  *( 🧑🏻‍💻 )  Owner Menu*
+    _Owner Menu_
   > evalcode
   x evalcode-2
   $ executor
@@ -218,7 +209,7 @@ exports.allmenu = (sender, prefix, pushname, isOwner, isPremium, balance, limit,
 
   *THANKS TO*
   - Allah SWT
-  - Fahri (Saya)
+  - @FahriGans (Saya)
   - Baileys-Md (Adiwa Jshing)
   - @yannnnn.zz_ (Riyan)
   - @sofunsyabi.id (Arasya)
